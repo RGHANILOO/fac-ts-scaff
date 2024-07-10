@@ -7,6 +7,10 @@
   "bin": {
     "fac-ts-scaff": "dist/index.js"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "rimraf dist && tsc",
     "dev": "ts-node src/index.ts",
